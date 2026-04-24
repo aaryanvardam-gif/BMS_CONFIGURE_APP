@@ -1,0 +1,42 @@
+{
+  "name": "BMS Configurator",
+  "short_name": "BMS Config",
+  "description": "BMS Configurator — IO Summary, Zone Allocation, Controller Selection, Excel & PDF Reporting. Made by Aaryan Vardam.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#060b18",
+  "theme_color": "#00d4ff",
+  "orientation": "any",
+  "categories": ["utilities","productivity","engineering"],
+  "lang": "en",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' fill='%23060b18'/%3E%3Crect x='14' y='14' width='164' height='164' rx='26' fill='%230d1628' stroke='%2300d4ff' stroke-width='4'/%3E%3Crect x='14' y='14' width='164' height='4' rx='2' fill='%2300d4ff'/%3E%3Ctext x='96' y='110' font-family='monospace' font-weight='bold' font-size='68' text-anchor='middle' fill='%2300d4ff'%3E%E2%9A%A1%3C/text%3E%3Ctext x='96' y='150' font-family='monospace' font-size='18' font-weight='bold' text-anchor='middle' fill='%237aa3c8' letter-spacing='2'%3EBMS%3C/text%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' fill='%23060b18'/%3E%3Crect x='30' y='30' width='452' height='452' rx='68' fill='%230d1628' stroke='%2300d4ff' stroke-width='8'/%3E%3Crect x='30' y='30' width='452' height='8' rx='4' fill='%2300d4ff'/%3E%3Ctext x='256' y='300' font-family='monospace' font-weight='bold' font-size='185' text-anchor='middle' fill='%2300d4ff'%3E%E2%9A%A1%3C/text%3E%3Ctext x='256' y='405' font-family='monospace' font-size='56' font-weight='bold' text-anchor='middle' fill='%237aa3c8' letter-spacing='6'%3EBMS%3C/text%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "IO Summary",
+      "short_name": "IO Summary",
+      "description": "Open IO Summary with Zone support",
+      "url": "/"
+    },
+    {
+      "name": "Controller Selection",
+      "short_name": "Controller",
+      "description": "Run controller selection and PDF report",
+      "url": "/"
+    }
+  ],
+  "prefer_related_applications": false
+}
